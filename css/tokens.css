@@ -1,0 +1,42 @@
+:root {
+  /* Color */
+  --color-bg: #0a0e14;
+  --color-surface: #12161f;
+  --color-surface-alt: #171c27;
+  --color-text: #e8e9ec;
+  --color-text-muted: #9aa4b2;
+  --color-accent: #4ade80;
+  --color-accent-cyan: #22d3ee;
+  --color-border: rgba(74, 222, 128, 0.25);
+  --color-border-strong: rgba(74, 222, 128, 0.5);
+
+  /* Typography */
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-base: clamp(1rem, 0.95rem + 0.2vw, 1.05rem);
+  --text-lg: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem);
+  --text-xl: clamp(1.5rem, 1.3rem + 0.8vw, 2rem);
+  --text-hero: clamp(2.25rem, 1.6rem + 3vw, 4rem);
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-section: clamp(4rem, 3rem + 4vw, 7rem);
+
+  /* Layout */
+  --content-max-width: 1080px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+
+  /* Motion */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}

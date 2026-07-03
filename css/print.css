@@ -1,0 +1,28 @@
+@media print {
+  .site-header,
+  .hero-cta,
+  .project-card__links,
+  .skip-link {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff;
+    color: #111111;
+  }
+
+  a {
+    color: #111111;
+    text-decoration: underline;
+  }
+
+  section {
+    padding-block: 1rem;
+    page-break-inside: avoid;
+  }
+
+  .terminal-window {
+    box-shadow: none;
+    border: 1px solid #cccccc;
+  }
+}
