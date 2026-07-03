@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Julio Pertuz — Full Stack Developer Jr.</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-  <meta name="description" content="Portafolio de Julio Pertuz, Full Stack Developer Jr. en formación activa, disponible para trabajo remoto." />
+  <meta name="description" content="Portfolio of Julio Pertuz, Full Stack Developer Jr. in active training, available for remote work." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -17,18 +17,19 @@
   <link rel="stylesheet" href="css/print.css" media="print" />
 </head>
 <body>
-  <a class="skip-link" href="#main-content" data-i18n="a11y.skipLink">Saltar al contenido</a>
+  <a class="skip-link" href="#main-content" data-i18n="a11y.skipLink">Skip to content</a>
 
   <header class="site-header">
     <div class="container site-header__inner">
       <span class="logo">~/julio</span>
 
-      <nav aria-label="Navegación principal">
+      <nav aria-label="Main navigation">
         <ul class="site-nav-list" data-nav-list id="primary-nav">
-          <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#education" data-i18n="nav.education">Education</a></li>
           <li><a href="#skills" data-i18n="nav.skills">Stack</a></li>
-          <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
-          <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -39,7 +40,7 @@
           data-lang-toggle
           data-i18n="nav.toggleLang"
           data-i18n-aria-label="nav.langToggleAriaLabel"
-        >EN</button>
+        >ES</button>
         <button
           type="button"
           class="nav-toggle"
@@ -67,12 +68,12 @@
             <p><span class="terminal-prompt">$</span> <span data-i18n="hero.command">whoami</span></p>
             <p class="hero__name" data-typed-text data-i18n="hero.name">Julio Pertuz</p>
             <h1 class="hero__role"><span data-i18n="hero.role">Full Stack Developer Jr.</span><span class="terminal-cursor" aria-hidden="true"></span></h1>
-            <p><span class="availability-badge" data-i18n="hero.badge">Disponible para trabajo remoto</span></p>
-            <p class="hero__tagline" data-i18n="hero.tagline">Construyo interfaces web con JavaScript, cuido cada detalle y aprendo rápido.</p>
+            <p><span class="availability-badge" data-i18n="hero.badge">Open to remote work</span></p>
+            <p class="hero__tagline" data-i18n="hero.tagline">I build web interfaces with JavaScript, care about every detail, and learn fast.</p>
             <div class="hero-cta">
-              <a class="button button--primary" href="#projects" data-i18n="hero.ctaProjects">Ver proyectos</a>
-              <a class="button button--ghost" href="#contact" data-i18n="hero.ctaContact">Contáctame</a>
-              <button type="button" class="button button--ghost" data-download-cv data-i18n="hero.ctaResume">Descargar CV</button>
+              <a class="button button--primary" href="#projects" data-i18n="hero.ctaProjects">View projects</a>
+              <a class="button button--ghost" href="#contact" data-i18n="hero.ctaContact">Contact me</a>
+              <button type="button" class="button button--ghost" data-download-cv data-i18n="hero.ctaResume">Download CV</button>
             </div>
           </div>
         </div>
@@ -81,16 +82,34 @@
 
     <section id="about" class="about">
       <div class="container" data-reveal>
-        <h2 data-i18n="about.heading">Sobre mí</h2>
-        <p data-i18n="about.p1">Soy developer full stack en formación activa, enfocado en JavaScript, React y Node.js. Construyo proyectos reales para aprender resolviendo problemas concretos, no solo siguiendo tutoriales.</p>
-        <p data-i18n="about.p2">Tengo una base sólida de pensamiento analítico y disciplina de trabajo, que aplico ahora a escribir código limpio, entender bien el problema antes de programar y iterar con feedback.</p>
-        <p data-i18n="about.p3">Estoy en total disponibilidad para una primera oportunidad remota como developer junior o trainee. Aprendo rápido, me adapto a nuevos equipos y herramientas, y me tomo en serio cada línea de código que escribo.</p>
+        <h2 data-i18n="about.heading">About me</h2>
+        <p data-i18n="about.p1">I'm a full stack developer in active training, focused on JavaScript, React, and Node.js. I build real projects to learn by solving concrete problems, not just following tutorials.</p>
+        <p data-i18n="about.p2">I bring a solid analytical mindset and work discipline, which I now apply to writing clean code, understanding the problem before coding, and iterating on feedback.</p>
+        <p data-i18n="about.p3">I'm fully available for a first remote opportunity as a junior developer or trainee. I learn fast, adapt to new teams and tools, and take every line of code I write seriously.</p>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="container" data-reveal>
+        <h2 data-i18n="education.heading">Education</h2>
+        <p data-i18n="education.blurb">Currently studying at APX Coding School — Level 1 of 4 (Level 0 to Level 3).</p>
+        <ul class="certificate-list">
+          <li>
+            <a class="button button--ghost" href="assets/certificates/apx-level-0-certificate.webp" target="_blank" rel="noopener" data-i18n="education.cert.apx0">APX — Level 0 Certificate</a>
+          </li>
+          <li>
+            <a class="button button--ghost" href="assets/certificates/introduction-to-cybersecurity-certificate.pdf" target="_blank" rel="noopener" data-i18n="education.cert.cybersecurity">Introduction to Cybersecurity — Certificate</a>
+          </li>
+          <li>
+            <a class="button button--ghost" href="assets/certificates/introduction-to-web-development-certificate.pdf" target="_blank" rel="noopener" data-i18n="education.cert.webdev">Introduction to Web Development — Certificate</a>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section id="skills" class="skills">
       <div class="container">
-        <h2 data-i18n="skills.heading">Stack técnico</h2>
+        <h2 data-i18n="skills.heading">Tech stack</h2>
         <div class="skills-grid">
           <div class="skill-group" data-reveal data-reveal-group="skills-frontend">
             <h3 data-i18n="skills.frontend">Frontend</h3>
@@ -110,7 +129,7 @@
             </ul>
           </div>
           <div class="skill-group" data-reveal data-reveal-group="skills-tools">
-            <h3 data-i18n="skills.tools">Herramientas</h3>
+            <h3 data-i18n="skills.tools">Tools</h3>
             <ul class="skill-list">
               <li class="skill-badge">Git</li>
               <li class="skill-badge">GitHub</li>
@@ -125,11 +144,11 @@
 
     <section id="projects" class="projects">
       <div class="container">
-        <h2 data-i18n="projects.heading">Proyectos</h2>
+        <h2 data-i18n="projects.heading">Projects</h2>
         <div class="projects-grid">
           <article class="project-card" data-reveal data-reveal-group="projects">
-            <h3 data-i18n="projects.project1.title">Este portafolio</h3>
-            <p data-i18n="projects.project1.description">Sitio construido con HTML, CSS y JavaScript puro, animado con Motion y desplegado en Vercel. Sin frameworks, sin bundler: cada línea es código que escribí y entiendo.</p>
+            <h3 data-i18n="projects.project1.title">This portfolio</h3>
+            <p data-i18n="projects.project1.description">Built with plain HTML, CSS, and JavaScript, animated with Motion, and deployed on Vercel. No frameworks, no bundler: every line is code I wrote and understand.</p>
             <ul class="project-card__tags">
               <li class="skill-badge">HTML</li>
               <li class="skill-badge">CSS</li>
@@ -138,19 +157,19 @@
               <li class="skill-badge">Vercel</li>
             </ul>
             <div class="project-card__links">
-              <a class="button button--ghost" href="https://cv-julio-pertuz.vercel.app" data-i18n="projects.viewSite">Ver sitio</a>
-              <a class="button button--ghost" href="https://github.com/JPertuzBarrera/cv-julio-pertuz" target="_blank" rel="noopener" data-i18n="projects.viewCode">Ver código</a>
+              <a class="button button--ghost" href="https://cv-julio-pertuz.vercel.app" data-i18n="projects.viewSite">View site</a>
+              <a class="button button--ghost" href="https://github.com/JPertuzBarrera/cv-julio-pertuz" target="_blank" rel="noopener" data-i18n="projects.viewCode">View code</a>
             </div>
           </article>
 
           <article class="project-card project-card--placeholder" data-reveal data-reveal-group="projects">
-            <h3 data-i18n="projects.comingSoon.title">Próximamente</h3>
-            <p data-i18n="projects.comingSoon.description">Estoy construyendo mi siguiente proyecto. Vuelve pronto para verlo.</p>
+            <h3 data-i18n="projects.comingSoon.title">Coming soon</h3>
+            <p data-i18n="projects.comingSoon.description">I'm building my next project. Check back soon.</p>
           </article>
 
           <article class="project-card project-card--placeholder" data-reveal data-reveal-group="projects">
-            <h3 data-i18n="projects.comingSoon.title">Próximamente</h3>
-            <p data-i18n="projects.comingSoon.description">Estoy construyendo mi siguiente proyecto. Vuelve pronto para verlo.</p>
+            <h3 data-i18n="projects.comingSoon.title">Coming soon</h3>
+            <p data-i18n="projects.comingSoon.description">I'm building my next project. Check back soon.</p>
           </article>
         </div>
       </div>
@@ -158,20 +177,21 @@
 
     <section id="contact" class="contact">
       <div class="container">
-        <h2 data-i18n="contact.heading">Contacto</h2>
-        <p data-i18n="contact.blurb">¿Buscas sumar a alguien disciplinado, con ganas reales de aprender y crecer como developer? Escríbeme.</p>
+        <h2 data-i18n="contact.heading">Contact</h2>
+        <p data-i18n="contact.blurb">Looking for someone disciplined, eager to learn, and ready to grow as a developer? Reach out.</p>
         <ul class="contact-list">
-          <li><strong data-i18n="contact.email">Email</strong>: <a href="mailto:baralfre10@gmail.com">baralfre10@gmail.com</a></li>
+          <li><strong data-i18n="contact.email">Email</strong>: <a href="mailto:juliopertuz8@gmail.com">juliopertuz8@gmail.com</a></li>
+          <li><strong data-i18n="contact.phone">Phone</strong>: <a href="tel:+573243559146">+57 324 355 9146</a></li>
           <li><strong data-i18n="contact.linkedin">LinkedIn</strong>: <a href="https://www.linkedin.com/in/julioapb" target="_blank" rel="noopener">linkedin.com/in/julioapb</a></li>
           <li><strong data-i18n="contact.github">GitHub</strong>: <a href="https://github.com/JPertuzBarrera" target="_blank" rel="noopener">github.com/JPertuzBarrera</a></li>
-          <li><strong data-i18n="contact.location">Ubicación</strong>: <span data-i18n="contact.locationValue">Chía, Colombia (remoto)</span></li>
+          <li><strong data-i18n="contact.location">Location</strong>: <span data-i18n="contact.locationValue">Chía, Colombia (remote)</span></li>
         </ul>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p data-i18n="footer.availability">Disponible para trabajo remoto — junior / sin experiencia formal en tech.</p>
+    <p data-i18n="footer.availability">Open to remote work — junior / no formal tech experience.</p>
   </footer>
 
   <script src="js/vendor/motion.js"></script>

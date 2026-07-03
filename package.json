@@ -2,7 +2,7 @@
   "name": "cv-julio-pertuz",
   "version": "1.0.0",
   "private": true,
-  "description": "Portafolio y CV de Julio Pertuz, Full Stack Developer Jr.",
+  "description": "Portfolio and CV of Julio Pertuz, Full Stack Developer Jr.",
   "type": "module",
   "scripts": {
     "dev": "node scripts/dev-server.js",

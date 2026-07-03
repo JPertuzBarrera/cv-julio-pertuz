@@ -237,6 +237,15 @@
   margin-top: auto;
 }
 
+.certificate-list {
+  list-style: none;
+  margin: var(--space-md) 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
 .contact-list {
   list-style: none;
   margin: 0;

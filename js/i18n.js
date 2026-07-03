@@ -2,6 +2,7 @@ export const translations = {
   es: {
     'a11y.skipLink': 'Saltar al contenido',
     'nav.about': 'Sobre mí',
+    'nav.education': 'Formación',
     'nav.skills': 'Stack',
     'nav.projects': 'Proyectos',
     'nav.contact': 'Contacto',
@@ -20,6 +21,11 @@ export const translations = {
     'about.p1': 'Soy developer full stack en formación activa, enfocado en JavaScript, React y Node.js. Construyo proyectos reales para aprender resolviendo problemas concretos, no solo siguiendo tutoriales.',
     'about.p2': 'Tengo una base sólida de pensamiento analítico y disciplina de trabajo, que aplico ahora a escribir código limpio, entender bien el problema antes de programar y iterar con feedback.',
     'about.p3': 'Estoy en total disponibilidad para una primera oportunidad remota como developer junior o trainee. Aprendo rápido, me adapto a nuevos equipos y herramientas, y me tomo en serio cada línea de código que escribo.',
+    'education.heading': 'Formación',
+    'education.blurb': 'Actualmente estudiando en la Escuela de Programación APX — Nivel 1 de 4 (Nivel 0 al Nivel 3).',
+    'education.cert.apx0': 'Certificado APX — Nivel 0',
+    'education.cert.cybersecurity': 'Introducción a la Ciberseguridad — Certificado',
+    'education.cert.webdev': 'Introducción al Desarrollo Web — Certificado',
     'skills.heading': 'Stack técnico',
     'skills.frontend': 'Frontend',
     'skills.backend': 'Backend',
@@ -34,6 +40,7 @@ export const translations = {
     'contact.heading': 'Contacto',
     'contact.blurb': '¿Buscas sumar a alguien disciplinado, con ganas reales de aprender y crecer como developer? Escríbeme.',
     'contact.email': 'Email',
+    'contact.phone': 'Teléfono',
     'contact.linkedin': 'LinkedIn',
     'contact.github': 'GitHub',
     'contact.location': 'Ubicación',
@@ -43,6 +50,7 @@ export const translations = {
   en: {
     'a11y.skipLink': 'Skip to content',
     'nav.about': 'About',
+    'nav.education': 'Education',
     'nav.skills': 'Stack',
     'nav.projects': 'Projects',
     'nav.contact': 'Contact',
@@ -61,6 +69,11 @@ export const translations = {
     'about.p1': "I'm a full stack developer in active training, focused on JavaScript, React, and Node.js. I build real projects to learn by solving concrete problems, not just following tutorials.",
     'about.p2': 'I bring a solid analytical mindset and work discipline, which I now apply to writing clean code, understanding the problem before coding, and iterating on feedback.',
     'about.p3': "I'm fully available for a first remote opportunity as a junior developer or trainee. I learn fast, adapt to new teams and tools, and take every line of code I write seriously.",
+    'education.heading': 'Education',
+    'education.blurb': 'Currently studying at APX Coding School — Level 1 of 4 (Level 0 to Level 3).',
+    'education.cert.apx0': 'APX — Level 0 Certificate',
+    'education.cert.cybersecurity': 'Introduction to Cybersecurity — Certificate',
+    'education.cert.webdev': 'Introduction to Web Development — Certificate',
     'skills.heading': 'Tech stack',
     'skills.frontend': 'Frontend',
     'skills.backend': 'Backend',
@@ -75,6 +88,7 @@ export const translations = {
     'contact.heading': 'Contact',
     'contact.blurb': 'Looking for someone disciplined, eager to learn, and ready to grow as a developer? Reach out.',
     'contact.email': 'Email',
+    'contact.phone': 'Phone',
     'contact.linkedin': 'LinkedIn',
     'contact.github': 'GitHub',
     'contact.location': 'Location',
@@ -83,7 +97,7 @@ export const translations = {
   },
 };
 
-export const DEFAULT_LANGUAGE = 'es';
+export const DEFAULT_LANGUAGE = 'en';
 const STORAGE_KEY = 'cv-language';
 
 export function getText(lang, key) {
